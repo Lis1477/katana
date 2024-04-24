@@ -1,0 +1,34 @@
+<footer>
+    <div class="container">
+
+        <div class="footer_address-block">
+            <img src="{{ asset('img/footer_geo_ico.png') }}">
+            <div>
+                <address>
+                    Республика Беларусь, г.Минск, ул.Рогачевская, 14.
+                </address>
+                <div>
+                    (Примечание: фактический адрес в Яндекс и Google картах определяет, как ул. Основателей, 17)
+                </div>
+            </div>
+        </div>        
+
+        <div class="footer_phone-block">
+            <img src="{{ asset('img/footer_phone_ico.png') }}">
+            <div><span>Тел:</span><a href="tel:+375173886288">+375 (17) 388-62-88</a></div>
+            <div><span>Факс:</span><a href="tel:+375173886188">+375 (17) 388-61-88</a></div>
+            <div><span>Моб:</span><a href="tel:+375291262626">+375 (29) 126-26-26</a></div>
+            <div><span></span><a href="tel:+375296454035">+375 (29) 645-40-35</a></div>
+            <div><span></span><a href="tel:+375295047237">+375 (29) 504-72-37</a></div>
+        </div>
+
+        <div class="footer_email-block">
+            <img src="{{ asset('img/footer_email_ico.png') }}">
+            <a href="mailto:alfagrad@alfagrad.com">alfagrad@alfagrad.com</a>
+
+            <div class="footer_copyright">&copy; ООО &laquo;Альфасад&raquo;</div>
+
+        </div>
+
+    </div>
+</footer>
